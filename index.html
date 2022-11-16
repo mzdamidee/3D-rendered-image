@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>3D Rendered Image</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="canon">
+      <model-viewer src="src/poly.glb" ios-src="src/poly.glb" alt="A 3D rendered model of a canon camera"
+        auto-rotate camera-controls ar>
+      </model-viewer>
+    </div>
+    <div id="info">
+      <h3>3D Rendered Image of a canon camera</h3>
+    </div>
+  </div>
+</body>
+
+</html>
